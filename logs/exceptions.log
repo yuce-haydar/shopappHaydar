@@ -1,0 +1,468 @@
+{
+  error: Error: Cannot find module './routes/products'
+  Require stack:
+  - C:\Users\HAYDAR\Desktop\shopapp\startup\routes.js
+  - C:\Users\HAYDAR\Desktop\shopapp\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HAYDAR\Desktop\shopapp\startup\routes.js:2:18)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js',
+      'C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module './routes/products'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js\n' +
+    "Error: Cannot find module './routes/products'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js:2:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  stack: "Error: Cannot find module './routes/products'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js:2:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  exception: true,
+  date: 'Sat Apr 08 2023 23:49:05 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 7432,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HAYDAR\\Desktop\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 51363840,
+      heapTotal: 30912512,
+      heapUsed: 19240624,
+      external: 21938507,
+      arrayBuffers: 19094108
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15286 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: 'Apr-08-2023 23:49:05'
+}
+{
+  error: Error: Cannot find module './routes/products'
+  Require stack:
+  - C:\Users\HAYDAR\Desktop\shopapp\startup\routes.js
+  - C:\Users\HAYDAR\Desktop\shopapp\app.js
+      at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+      at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+      at Module.require (node:internal/modules/cjs/loader:1005:19)
+      at require (node:internal/modules/cjs/helpers:102:18)
+      at Object.<anonymous> (C:\Users\HAYDAR\Desktop\shopapp\startup\routes.js:2:18)
+      at Module._compile (node:internal/modules/cjs/loader:1105:14)
+      at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)
+      at Module.load (node:internal/modules/cjs/loader:981:32)
+      at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+      at Module.require (node:internal/modules/cjs/loader:1005:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js',
+      'C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module './routes/products'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js\n' +
+    "Error: Cannot find module './routes/products'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js:2:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  stack: "Error: Cannot find module './routes/products'\n" +
+    'Require stack:\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js\n' +
+    '- C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js\n' +
+    '    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:102:18)\n' +
+    '    at Object.<anonymous> (C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js:2:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1105:14)\n' +
+    '    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1159:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:981:32)\n' +
+    '    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1005:19)',
+  exception: true,
+  date: 'Sat Apr 08 2023 23:49:21 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 1944,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HAYDAR\\Desktop\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 49872896,
+      heapTotal: 31174656,
+      heapUsed: 18256440,
+      external: 21938507,
+      arrayBuffers: 18950323
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15302 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 933,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 778,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 102,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Users\\HAYDAR\\Desktop\\shopapp\\startup\\routes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1105,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1159,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 981,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 822,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1005,
+      method: 'require',
+      native: false
+    }
+  ],
+  timestamp: 'Apr-08-2023 23:49:21'
+}
+{
+  error: MongoServerError: bad auth : Authentication failed.
+      at Connection.onMessage (C:\Users\HAYDAR\Desktop\shopapp\node_modules\mongodb\lib\cmap\connection.js:201:30)
+      at MessageStream.<anonymous> (C:\Users\HAYDAR\Desktop\shopapp\node_modules\mongodb\lib\cmap\connection.js:59:60)
+      at MessageStream.emit (node:events:527:28)
+      at processIncomingData (C:\Users\HAYDAR\Desktop\shopapp\node_modules\mongodb\lib\cmap\message_stream.js:124:16)
+      at MessageStream._write (C:\Users\HAYDAR\Desktop\shopapp\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+      at writeOrBuffer (node:internal/streams/writable:389:12)
+      at _write (node:internal/streams/writable:330:10)
+      at MessageStream.Writable.write (node:internal/streams/writable:334:10)
+      at TLSSocket.ondata (node:internal/streams/readable:754:22)
+      at TLSSocket.emit (node:events:527:28) {
+    ok: 0,
+    code: 8000,
+    codeName: 'AtlasError',
+    connectionGeneration: 0,
+    [Symbol(errorLabels)]: Set(2) { 'HandshakeError', 'ResetPool' }
+  },
+  level: 'error',
+  message: 'unhandledRejection: bad auth : Authentication failed.\n' +
+    'MongoServerError: bad auth : Authentication failed.\n' +
+    '    at Connection.onMessage (C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:201:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:59:60)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:124:16)\n' +
+    '    at MessageStream._write (C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at TLSSocket.emit (node:events:527:28)',
+  stack: 'MongoServerError: bad auth : Authentication failed.\n' +
+    '    at Connection.onMessage (C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:201:30)\n' +
+    '    at MessageStream.<anonymous> (C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js:59:60)\n' +
+    '    at MessageStream.emit (node:events:527:28)\n' +
+    '    at processIncomingData (C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:124:16)\n' +
+    '    at MessageStream._write (C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js:33:9)\n' +
+    '    at writeOrBuffer (node:internal/streams/writable:389:12)\n' +
+    '    at _write (node:internal/streams/writable:330:10)\n' +
+    '    at MessageStream.Writable.write (node:internal/streams/writable:334:10)\n' +
+    '    at TLSSocket.ondata (node:internal/streams/readable:754:22)\n' +
+    '    at TLSSocket.emit (node:events:527:28)',
+  exception: true,
+  date: 'Sat Apr 08 2023 23:50:50 GMT+0300 (GMT+03:00)',
+  process: {
+    pid: 8640,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Users\\HAYDAR\\Desktop\\shopapp',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v16.16.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Users\\HAYDAR\\Desktop\\shopapp\\app.js'
+    ],
+    memoryUsage: {
+      rss: 81534976,
+      heapTotal: 60583936,
+      heapUsed: 29820144,
+      external: 44110596,
+      arrayBuffers: 36247364
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 15392 },
+  trace: [
+    {
+      column: 30,
+      file: 'C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: 'Connection.onMessage',
+      line: 201,
+      method: 'onMessage',
+      native: false
+    },
+    {
+      column: 60,
+      file: 'C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\connection.js',
+      function: null,
+      line: 59,
+      method: null,
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'MessageStream.emit',
+      line: 527,
+      method: 'emit',
+      native: false
+    },
+    {
+      column: 16,
+      file: 'C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'processIncomingData',
+      line: 124,
+      method: null,
+      native: false
+    },
+    {
+      column: 9,
+      file: 'C:\\Users\\HAYDAR\\Desktop\\shopapp\\node_modules\\mongodb\\lib\\cmap\\message_stream.js',
+      function: 'MessageStream._write',
+      line: 33,
+      method: '_write',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/streams/writable',
+      function: 'writeOrBuffer',
+      line: 389,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: '_write',
+      line: 330,
+      method: null,
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/streams/writable',
+      function: 'MessageStream.Writable.write',
+      line: 334,
+      method: 'write',
+      native: false
+    },
+    {
+      column: 22,
+      file: 'node:internal/streams/readable',
+      function: 'TLSSocket.ondata',
+      line: 754,
+      method: 'ondata',
+      native: false
+    },
+    {
+      column: 28,
+      file: 'node:events',
+      function: 'TLSSocket.emit',
+      line: 527,
+      method: 'emit',
+      native: false
+    }
+  ],
+  timestamp: 'Apr-08-2023 23:50:50'
+}
